@@ -36,8 +36,8 @@ Steps once the technologies are installed:
 - Run the "npm run install" script in both project directories (client and server). This will install the dependencies of both scopes.
 - Test that everything works correctly by opening two terminals in your IDE. Run the "npm run dev" script in each one being inside the corresponding directory and observe if the console output is correct.
 - In the /server/src/procedurals/routes/procedural.routes.ts folder, you will find the storeProceduralToDatabase route and in it the execution of the main procedural process. Here you can choose the name of the galaxy and the number of systems to generate (by default "Milky Way" and 2,000 respectively).
-- In the browser, visit the route http://localhost:8080/storeProcedural and wait for the process to complete.
-- In the browser, visit the route http://localhost:3000/ and wait for the content to load. You will see the 3D scene of the galaxy you have created.
+- In the browser, visit the route [http://localhost:8080/storeProcedural](http://localhost:8080/storeProcedural) and wait for the process to complete.
+- In the browser, visit the route [http://localhost:3000/](http://localhost:3000/) and wait for the content to load. You will see the 3D scene of the galaxy you have created.
 - If you want to replicate the process in the same local environment, in the .env file of the server folder, change the DB_URI environment variable to the value you want and repeat the process of visiting the routes, make sure to restart the server after changing the value of the environment variable so that the changes take effect.
 
 ## Main Features:

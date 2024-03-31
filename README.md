@@ -37,8 +37,8 @@ Pasos una vez instaladas las tecnologías:
 - Lanza el script "npm run install" en ambos directorios del proyecto (cliente y servidor). Esto instalará las dependencias de ambos ámbitos.
 - Prueba que todo funcione correctamente abriendo dos terminales en tu IDE. Lanza el script "npm run dev" en cada una estando dentro del directorio correspondiente y observa si la salida por consola es correcta.
 - En la carpeta /server/src/procedurals/routes/procedural.routes.ts encontrarás la ruta storeProceduralToDatabase y en ella la ejecución del proceso principal del procedural. Aquí podrás elegir el nombre de la galaxia y el número de sistemas a generar (por defecto "Milky Way" y 2.000 respectivamente).
-- En el navegador visita la ruta http://localhost:8080/storeProcedural y espera a que el proceso termine por completo.
-- En el navegador visita la ruta http://localhost:3000/ y espera a que el contenido se cargue. Verás la escena 3D de la galaxia que has creado.
+- En el navegador visita la ruta [http://localhost:8080/storeProcedural](http://localhost:8080/storeProcedural) y espera a que el proceso termine por completo.
+- En el navegador visita la ruta [http://localhost:3000/](http://localhost:3000/) y espera a que el contenido se cargue. Verás la escena 3D de la galaxia que has creado.
 - Si quieres replicar el proceso en el mismo entorno local, en el archivo .env de la carpeta server cambia la variable de entorno DB_URI por el valor que quieras y repite el proceso de visitar las rutas, asegúrate de reiniciar el servidor después de cambiar el valor de la variable de entorno para que los cambios surjan efecto.
 
 ## Funcionalidades principales:
