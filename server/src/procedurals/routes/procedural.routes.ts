@@ -38,7 +38,7 @@ export const proceduralRoute = router.get('/procedural', async (_req, res) => {
 export const saveProceduralToDatabase = router.get(
   '/storeProcedural',
   async (_req, res) => {
-    const newGalaxy = await mainProceduralProcess('Milky Way', 6000)
+    const newGalaxy = await mainProceduralProcess('Milky Way', 2000)
 
     try{
         await newGalaxy.storeGalaxy().catch((error: any) => {
